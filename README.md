@@ -28,15 +28,21 @@ This is the [link](https://github.com/israsecnet/XufiSIEMClient) to the reposito
 git clone https://github.com/israsecnet/CRMSIEMSERVER.git
 ```
 
+2. Navigate to the CRMSIEMSERVER directory
+
+```
+cd CRMSIEMSERVER
+```
+
 3. Install the required dependencies using pip
 
 ```
 pip install -r requirements.txt
 ```
 
-3. Configure your database connection in `database.py` or create a custom configuration file.
+4. Configure your database connection in `config/database.py` or create a custom configuration file.
 
-4. Start the FastAPI server.
+5. Start the FastAPI server.
 
 ```
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
